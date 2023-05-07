@@ -1,0 +1,89 @@
+.oo {
+    background-color: blue;
+}
+.x {
+    margin-left: auto;
+    padding: 10px 15px;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+.wrapper {
+    border: 1px solid black;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: aquamarine;
+  }
+  h1 {
+    text-align: center;
+    color: rgb(87, 87, 236);
+    font-size: 50px;
+    transform: translate(to);
+  }
+  
+  
+  .todo-item {
+      border-radius: 10px;
+      max-width: 400px;
+      width: 100%;
+      margin: 0 auto;
+      border: 1px solid black;
+      background-color: rgb(149, 234, 13);
+      margin-bottom: 20px;
+      text-align: center;
+      padding: 5px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.5s;
+      cursor: pointer;
+  }
+  .done p{
+    text-decoration: line-through;
+  }
+
+  .delete {
+    padding: 5px 10px;
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+  }
+
+  .input-wrap {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+  }
+  .input-wrap input {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 250px;
+    
+  }
+  
+  .input-wrap button {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 30px;
+    
+  }
+  
+  .make-done {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+  }
+  
+
+  
